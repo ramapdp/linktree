@@ -3,9 +3,15 @@ import './App.css';
 
 function App() {
   return (
-    <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
+    <div className=''>
+
+      {/* Header Section */}
+      <div className='flex flex-col justify-items-center items-center mt-4 md:mt-3'>
+        <img className='image mx-auto rounded-full border-4 border-black' src={require("./assets/profile.png")} alt='My Profile Pictures'/>
+        <h1 className='mt-3 text-2xl font-semibold'>Rama Pratama</h1>
+      </div>
+
+    </div>
   );
 }
 
