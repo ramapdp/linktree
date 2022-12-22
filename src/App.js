@@ -40,7 +40,7 @@ function App() {
             </a>
           </li>
           <li className='items-center my-1'>
-            <a href='https://wa.me/082331340423' className='whatsapp w-full justify-center'>
+            <a href='https://wa.me/+6282331340423' className='whatsapp w-full justify-center'>
               <img src={require("./assets/white-icons/WhatsApp.png")} className="w-7" />
               Chat me via WhatsApp
             </a>
