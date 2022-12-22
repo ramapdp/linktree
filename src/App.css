@@ -1,5 +1,33 @@
-.image{
+.image {
   width: 10vw;
   min-width: 150px !important;
   max-width: 250px !important;
+}
+
+.front{
+  z-index: 999;
+}
+
+.instagram:hover {
+  background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(252, 120, 100, 0.507) 0%, rgba(253, 152, 110, 0.507) 62%, rgba(232, 102, 253, 0.507) 100%) !important;
+}
+
+.linkedin:hover {
+  background-color: rgb(2, 119, 181, 0.507) !important;
+}
+
+.github:hover {
+  background-color: rgba(255, 255, 255, 0.507) !important;
+}
+
+.gmail:hover {
+  background: linear-gradient(90deg, rgb(66, 133, 244, 0.507), rgb(52, 168, 83, 0.507), rgb(251, 188, 5, 0.507), rgb(234, 67, 53, 0.507)) !important;
+}
+
+.whatsapp:hover{
+  background-color: rgb(0, 230, 118) !important;
+}
+
+.line:hover{
+  background-color: rgb(0, 195, 0) !important;
 }
