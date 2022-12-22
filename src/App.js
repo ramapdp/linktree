@@ -15,7 +15,7 @@ function App() {
         <div className="w-32 mask mask-squircle">
           <img src={require("./assets/profile.png")} />
         </div>
-        <h1 className='mt-3 text-2xl font-semibold text-white'>Rama Pratama</h1>
+        <h1 className='mt-3 text-2xl font-bold text-white'>Rama Pratama</h1>
       </div>
 
       {/* Main Section */}
