@@ -17,9 +17,9 @@ function App() {
         <div className="w-32 mask mask-squircle">
           <img src={require("./assets/profile.png")} />
         </div>
-        <h1 className='mt-3 text-2xl font-bold text-white'>
+        <h1 className='mt-3 py-2 text-2xl font-bold text-white'>
           <ReactTypingEffect
-            text={["Rama Pratama", "From Sumenep", "Informatics Engineering Students"]}
+            text={["Rama Pratama", "From Sumenep", "Informatics Engineering '20"]}
             speed={150}
             eraseSpeed={90}
             eraseDelay={1700}
