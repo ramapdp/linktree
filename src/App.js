@@ -1,3 +1,5 @@
+import React from 'react';
+import ReactTypingEffect from 'react-typing-effect';
 import './Background.css';
 import './App.css';
 
@@ -15,7 +17,15 @@ function App() {
         <div className="w-32 mask mask-squircle">
           <img src={require("./assets/profile.png")} />
         </div>
-        <h1 className='mt-3 text-2xl font-bold text-white'>Rama Pratama</h1>
+        <h1 className='mt-3 text-2xl font-bold text-white'>
+          <ReactTypingEffect
+            text={["Rama Pratama", "From Sumenep", "Informatics Engineering Students"]}
+            speed={150}
+            eraseSpeed={90}
+            eraseDelay={1700}
+            typingDelay={250}
+          />
+        </h1>
       </div>
 
       {/* Main Section */}
